@@ -1,0 +1,1024 @@
+/*
+object-assign
+(c) Sindre Sorhus
+@license MIT
+*/
+
+/*!
+ * @pixi/constants - v5.2.1
+ * Compiled Tue, 28 Jan 2020 23:33:11 UTC
+ *
+ * @pixi/constants is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/display - v5.2.1
+ * Compiled Tue, 28 Jan 2020 23:33:11 UTC
+ *
+ * @pixi/display is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/filter-adjustment - v3.0.3
+ * Compiled Wed, 29 May 2019 03:04:05 UTC
+ *
+ * @pixi/filter-adjustment is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/filter-alpha - v5.2.1
+ * Compiled Tue, 28 Jan 2020 23:33:11 UTC
+ *
+ * @pixi/filter-alpha is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/filter-ascii - v3.0.3
+ * Compiled Wed, 29 May 2019 03:04:05 UTC
+ *
+ * @pixi/filter-ascii is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/filter-bulge-pinch - v3.0.3
+ * Compiled Wed, 29 May 2019 03:04:05 UTC
+ *
+ * @pixi/filter-bulge-pinch is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/filter-color-matrix - v5.2.1
+ * Compiled Tue, 28 Jan 2020 23:33:11 UTC
+ *
+ * @pixi/filter-color-matrix is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/filter-convolution - v3.0.3
+ * Compiled Wed, 29 May 2019 03:04:05 UTC
+ *
+ * @pixi/filter-convolution is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/filter-cross-hatch - v3.0.3
+ * Compiled Wed, 29 May 2019 03:04:05 UTC
+ *
+ * @pixi/filter-cross-hatch is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/filter-crt - v3.0.3
+ * Compiled Wed, 29 May 2019 03:04:05 UTC
+ *
+ * @pixi/filter-crt is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/filter-dot - v3.0.3
+ * Compiled Wed, 29 May 2019 03:04:05 UTC
+ *
+ * @pixi/filter-dot is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/filter-emboss - v3.0.3
+ * Compiled Wed, 29 May 2019 03:04:05 UTC
+ *
+ * @pixi/filter-emboss is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/filter-fxaa - v5.2.1
+ * Compiled Tue, 28 Jan 2020 23:33:11 UTC
+ *
+ * @pixi/filter-fxaa is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/filter-noise - v5.2.1
+ * Compiled Tue, 28 Jan 2020 23:33:11 UTC
+ *
+ * @pixi/filter-noise is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/filter-old-film - v3.0.3
+ * Compiled Wed, 29 May 2019 03:04:05 UTC
+ *
+ * @pixi/filter-old-film is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/filter-pixelate - v3.0.3
+ * Compiled Wed, 29 May 2019 03:04:05 UTC
+ *
+ * @pixi/filter-pixelate is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/filter-radial-blur - v3.0.3
+ * Compiled Wed, 29 May 2019 03:04:05 UTC
+ *
+ * @pixi/filter-radial-blur is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/filter-reflection - v3.0.3
+ * Compiled Wed, 29 May 2019 03:04:05 UTC
+ *
+ * @pixi/filter-reflection is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/filter-rgb-split - v3.0.3
+ * Compiled Wed, 29 May 2019 03:04:05 UTC
+ *
+ * @pixi/filter-rgb-split is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/filter-shockwave - v3.0.3
+ * Compiled Wed, 29 May 2019 03:04:05 UTC
+ *
+ * @pixi/filter-shockwave is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/filter-twist - v3.0.3
+ * Compiled Wed, 29 May 2019 03:04:05 UTC
+ *
+ * @pixi/filter-twist is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/filter-zoom-blur - v3.0.3
+ * Compiled Wed, 29 May 2019 03:04:05 UTC
+ *
+ * @pixi/filter-zoom-blur is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/math - v5.2.1
+ * Compiled Tue, 28 Jan 2020 23:33:11 UTC
+ *
+ * @pixi/math is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/mixin-get-child-by-name - v5.2.1
+ * Compiled Tue, 28 Jan 2020 23:33:11 UTC
+ *
+ * @pixi/mixin-get-child-by-name is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/mixin-get-global-position - v5.2.1
+ * Compiled Tue, 28 Jan 2020 23:33:11 UTC
+ *
+ * @pixi/mixin-get-global-position is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/polyfill - v5.2.1
+ * Compiled Tue, 28 Jan 2020 23:33:11 UTC
+ *
+ * @pixi/polyfill is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/prepare - v5.2.1
+ * Compiled Tue, 28 Jan 2020 23:33:11 UTC
+ *
+ * @pixi/prepare is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/runner - v5.2.1
+ * Compiled Tue, 28 Jan 2020 23:33:11 UTC
+ *
+ * @pixi/runner is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/settings - v5.2.1
+ * Compiled Tue, 28 Jan 2020 23:33:11 UTC
+ *
+ * @pixi/settings is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/ticker - v5.2.1
+ * Compiled Tue, 28 Jan 2020 23:33:11 UTC
+ *
+ * @pixi/ticker is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/utils - v5.2.1
+ * Compiled Tue, 28 Jan 2020 23:33:11 UTC
+ *
+ * @pixi/utils is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * pixi.js - v5.2.1
+ * Compiled Tue, 28 Jan 2020 23:33:11 UTC
+ *
+ * pixi.js is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * resource-loader - v3.0.1
+ * https://github.com/pixijs/pixi-sound
+ * Compiled Tue, 02 Jul 2019 14:06:18 UTC
+ *
+ * resource-loader is licensed under the MIT license.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*! ./../../../webpack/buildin/global.js */
+
+/*! ./../../../webpack/buildin/module.js */
+
+/*! ./../process/browser.js */
+
+/*! ./../timers-browserify/main.js */
+
+/*! ./../webpack/buildin/global.js */
+
+/*! ./BackgroundElements */
+
+/*! ./BackgroundScroller */
+
+/*! ./Config */
+
+/*! ./Countdown */
+
+/*! ./Game */
+
+/*! ./Loader */
+
+/*! ./Obstacles */
+
+/*! ./Particles */
+
+/*! ./PlayButton */
+
+/*! ./Player */
+
+/*! ./ScaleManager */
+
+/*! ./ScoreText */
+
+/*! ./SpriteEmitter */
+
+/*! ./Text */
+
+/*! ./decode */
+
+/*! ./encode */
+
+/*! ./isMobile */
+
+/*! ./util */
+
+/*! @pixi/accessibility */
+
+/*! @pixi/app */
+
+/*! @pixi/constants */
+
+/*! @pixi/core */
+
+/*! @pixi/display */
+
+/*! @pixi/extract */
+
+/*! @pixi/filter-adjustment */
+
+/*! @pixi/filter-advanced-bloom */
+
+/*! @pixi/filter-alpha */
+
+/*! @pixi/filter-ascii */
+
+/*! @pixi/filter-bevel */
+
+/*! @pixi/filter-bloom */
+
+/*! @pixi/filter-blur */
+
+/*! @pixi/filter-bulge-pinch */
+
+/*! @pixi/filter-color-map */
+
+/*! @pixi/filter-color-matrix */
+
+/*! @pixi/filter-color-replace */
+
+/*! @pixi/filter-convolution */
+
+/*! @pixi/filter-cross-hatch */
+
+/*! @pixi/filter-crt */
+
+/*! @pixi/filter-displacement */
+
+/*! @pixi/filter-dot */
+
+/*! @pixi/filter-drop-shadow */
+
+/*! @pixi/filter-emboss */
+
+/*! @pixi/filter-fxaa */
+
+/*! @pixi/filter-glitch */
+
+/*! @pixi/filter-glow */
+
+/*! @pixi/filter-godray */
+
+/*! @pixi/filter-kawase-blur */
+
+/*! @pixi/filter-motion-blur */
+
+/*! @pixi/filter-multi-color-replace */
+
+/*! @pixi/filter-noise */
+
+/*! @pixi/filter-old-film */
+
+/*! @pixi/filter-outline */
+
+/*! @pixi/filter-pixelate */
+
+/*! @pixi/filter-radial-blur */
+
+/*! @pixi/filter-reflection */
+
+/*! @pixi/filter-rgb-split */
+
+/*! @pixi/filter-shockwave */
+
+/*! @pixi/filter-simple-lightmap */
+
+/*! @pixi/filter-tilt-shift */
+
+/*! @pixi/filter-twist */
+
+/*! @pixi/filter-zoom-blur */
+
+/*! @pixi/graphics */
+
+/*! @pixi/interaction */
+
+/*! @pixi/loaders */
+
+/*! @pixi/math */
+
+/*! @pixi/mesh */
+
+/*! @pixi/mesh-extras */
+
+/*! @pixi/mixin-cache-as-bitmap */
+
+/*! @pixi/mixin-get-child-by-name */
+
+/*! @pixi/mixin-get-global-position */
+
+/*! @pixi/particles */
+
+/*! @pixi/polyfill */
+
+/*! @pixi/prepare */
+
+/*! @pixi/runner */
+
+/*! @pixi/settings */
+
+/*! @pixi/sprite */
+
+/*! @pixi/sprite-animated */
+
+/*! @pixi/sprite-tiling */
+
+/*! @pixi/spritesheet */
+
+/*! @pixi/text */
+
+/*! @pixi/text-bitmap */
+
+/*! @pixi/ticker */
+
+/*! @pixi/utils */
+
+/*! earcut */
+
+/*! es6-promise-polyfill */
+
+/*! eventemitter3 */
+
+/*! exports provided: ALPHA_MODES, BLEND_MODES, DRAW_MODES, ENV, FORMATS, GC_MODES, MASK_TYPES, MIPMAP_MODES, PRECISION, RENDERER_TYPE, SCALE_MODES, TARGETS, TYPES, WRAP_MODES */
+
+/*! exports provided: AbstractBatchRenderer, AbstractRenderer, Attribute, BaseRenderTexture, BaseTexture, BatchDrawCall, BatchGeometry, BatchPluginFactory, BatchRenderer, BatchShaderGenerator, BatchTextureArray, Buffer, CubeTexture, Filter, Framebuffer, GLProgram, GLTexture, Geometry, MaskData, ObjectRenderer, Program, Quad, QuadUv, RenderTexture, RenderTexturePool, Renderer, Shader, SpriteMaskFilter, State, System, Texture, TextureMatrix, TextureUvs, UniformGroup, ViewableBuffer, autoDetectRenderer, checkMaxIfStatementsInShader, defaultFilterVertex, defaultVertex, resources, systems */
+
+/*! exports provided: AccessibilityManager, accessibleTarget */
+
+/*! exports provided: AdjustmentFilter */
+
+/*! exports provided: AdjustmentFilter, AdvancedBloomFilter, AsciiFilter, BevelFilter, BloomFilter, BulgePinchFilter, ColorMapFilter, ColorReplaceFilter, ConvolutionFilter, CrossHatchFilter, CRTFilter, DotFilter, DropShadowFilter, EmbossFilter, GlitchFilter, GlowFilter, GodrayFilter, KawaseBlurFilter, MotionBlurFilter, MultiColorReplaceFilter, OldFilmFilter, OutlineFilter, PixelateFilter, RadialBlurFilter, ReflectionFilter, RGBSplitFilter, ShockwaveFilter, SimpleLightmapFilter, TiltShiftAxisFilter, TiltShiftFilter, TiltShiftXFilter, TiltShiftYFilter, TwistFilter, ZoomBlurFilter */
+
+/*! exports provided: AdvancedBloomFilter */
+
+/*! exports provided: AlphaFilter */
+
+/*! exports provided: AnimatedSprite */
+
+/*! exports provided: AppLoaderPlugin, Loader, LoaderResource, TextureLoader */
+
+/*! exports provided: Application */
+
+/*! exports provided: AsciiFilter */
+
+/*! exports provided: BasePrepare, CountLimiter, Prepare, TimeLimiter */
+
+/*! exports provided: BevelFilter */
+
+/*! exports provided: BitmapFontLoader, BitmapText */
+
+/*! exports provided: BloomFilter */
+
+/*! exports provided: BlurFilter, BlurFilterPass */
+
+/*! exports provided: Bounds, Container, DisplayObject */
+
+/*! exports provided: BulgePinchFilter */
+
+/*! exports provided: CRTFilter */
+
+/*! exports provided: Circle, DEG_TO_RAD, Ellipse, Matrix, ObservablePoint, PI_2, Point, Polygon, RAD_TO_DEG, Rectangle, RoundedRectangle, SHAPES, Transform, groupD8 */
+
+/*! exports provided: ColorMapFilter */
+
+/*! exports provided: ColorMatrixFilter */
+
+/*! exports provided: ColorReplaceFilter */
+
+/*! exports provided: ConvolutionFilter */
+
+/*! exports provided: CrossHatchFilter */
+
+/*! exports provided: DisplacementFilter */
+
+/*! exports provided: DotFilter */
+
+/*! exports provided: DropShadowFilter */
+
+/*! exports provided: EmbossFilter */
+
+/*! exports provided: Extract */
+
+/*! exports provided: FXAAFilter */
+
+/*! exports provided: FillStyle, GRAPHICS_CURVES, Graphics, GraphicsData, GraphicsGeometry, LineStyle, graphicsUtils */
+
+/*! exports provided: GlitchFilter */
+
+/*! exports provided: GlowFilter */
+
+/*! exports provided: GodrayFilter */
+
+/*! exports provided: InteractionData, InteractionEvent, InteractionManager, InteractionTrackingData, interactiveTarget */
+
+/*! exports provided: KawaseBlurFilter */
+
+/*! exports provided: Loader, Resource, async, encodeBinary, middleware */
+
+/*! exports provided: Mesh, MeshBatchUvs, MeshGeometry, MeshMaterial */
+
+/*! exports provided: MotionBlurFilter */
+
+/*! exports provided: MultiColorReplaceFilter */
+
+/*! exports provided: NineSlicePlane, PlaneGeometry, RopeGeometry, SimpleMesh, SimplePlane, SimpleRope */
+
+/*! exports provided: NoiseFilter */
+
+/*! exports provided: OldFilmFilter */
+
+/*! exports provided: OutlineFilter */
+
+/*! exports provided: ParticleContainer, ParticleRenderer */
+
+/*! exports provided: PixelateFilter */
+
+/*! exports provided: RGBSplitFilter */
+
+/*! exports provided: RadialBlurFilter */
+
+/*! exports provided: ReflectionFilter */
+
+/*! exports provided: Runner */
+
+/*! exports provided: ShockwaveFilter */
+
+/*! exports provided: SimpleLightmapFilter */
+
+/*! exports provided: Sprite */
+
+/*! exports provided: Spritesheet, SpritesheetLoader */
+
+/*! exports provided: TEXT_GRADIENT, Text, TextMetrics, TextStyle */
+
+/*! exports provided: Ticker, TickerPlugin, UPDATE_PRIORITY */
+
+/*! exports provided: TilingSprite, TilingSpriteRenderer */
+
+/*! exports provided: TiltShiftAxisFilter, TiltShiftFilter, TiltShiftXFilter, TiltShiftYFilter */
+
+/*! exports provided: TwistFilter */
+
+/*! exports provided: ZoomBlurFilter */
+
+/*! exports provided: accessibility, interaction, utils, Application, AbstractBatchRenderer, AbstractRenderer, Attribute, BaseRenderTexture, BaseTexture, BatchDrawCall, BatchGeometry, BatchPluginFactory, BatchRenderer, BatchShaderGenerator, BatchTextureArray, Buffer, CubeTexture, Filter, Framebuffer, GLProgram, GLTexture, Geometry, MaskData, ObjectRenderer, Program, Quad, QuadUv, RenderTexture, RenderTexturePool, Renderer, Shader, SpriteMaskFilter, State, System, Texture, TextureMatrix, TextureUvs, UniformGroup, ViewableBuffer, autoDetectRenderer, checkMaxIfStatementsInShader, defaultFilterVertex, defaultVertex, resources, systems, Extract, AppLoaderPlugin, Loader, LoaderResource, TextureLoader, ParticleContainer, ParticleRenderer, BasePrepare, CountLimiter, Prepare, TimeLimiter, Spritesheet, SpritesheetLoader, TilingSprite, TilingSpriteRenderer, BitmapFontLoader, BitmapText, Ticker, TickerPlugin, UPDATE_PRIORITY, ALPHA_MODES, BLEND_MODES, DRAW_MODES, ENV, FORMATS, GC_MODES, MASK_TYPES, MIPMAP_MODES, PRECISION, RENDERER_TYPE, SCALE_MODES, TARGETS, TYPES, WRAP_MODES, Bounds, Container, DisplayObject, FillStyle, GRAPHICS_CURVES, Graphics, GraphicsData, GraphicsGeometry, LineStyle, graphicsUtils, Circle, DEG_TO_RAD, Ellipse, Matrix, ObservablePoint, PI_2, Point, Polygon, RAD_TO_DEG, Rectangle, RoundedRectangle, SHAPES, Transform, groupD8, Mesh, MeshBatchUvs, MeshGeometry, MeshMaterial, NineSlicePlane, PlaneGeometry, RopeGeometry, SimpleMesh, SimplePlane, SimpleRope, Runner, Sprite, AnimatedSprite, TEXT_GRADIENT, Text, TextMetrics, TextStyle, isMobile, settings, VERSION, filters, useDeprecated */
+
+/*! exports provided: default */
+
+/*! exports provided: isMobile, EventEmitter, earcut, url, BaseTextureCache, CanvasRenderTarget, DATA_URI, ProgramCache, TextureCache, clearTextureCache, correctBlendMode, createIndicesForQuads, decomposeDataUri, deprecation, destroyTextureCache, determineCrossOrigin, getBufferType, getResolutionOfUrl, hex2rgb, hex2string, interleaveTypedArrays, isPow2, isWebGLSupported, log2, nextPow2, premultiplyBlendMode, premultiplyRgba, premultiplyTint, premultiplyTintToRgba, removeItems, rgb2hex, sayHello, sign, skipHello, string2hex, trimCanvas, uid */
+
+/*! exports provided: isMobile, settings */
+
+/*! https://mths.be/punycode v1.4.1 by @mathias */
+
+/*! ismobilejs */
+
+/*! mini-signals */
+
+/*! no exports provided */
+
+/*! no static exports found */
+
+/*! object-assign */
+
+/*! parse-uri */
+
+/*! pixi-filters */
+
+/*! pixi-spine */
+
+/*! pixi.js */
+
+/*! punycode */
+
+/*! querystring */
+
+/*! resource-loader */
+
+/*! setimmediate */
+
+/*! url */
+
+/*!*********************!*\
+  !*** ./src/Game.js ***!
+  \*********************/
+
+/*!*********************!*\
+  !*** ./src/Text.js ***!
+  \*********************/
+
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+
+/*!***********************!*\
+  !*** ./src/Config.js ***!
+  \***********************/
+
+/*!***********************!*\
+  !*** ./src/Loader.js ***!
+  \***********************/
+
+/*!***********************!*\
+  !*** ./src/Player.js ***!
+  \***********************/
+
+/*!**************************!*\
+  !*** ./src/Countdown.js ***!
+  \**************************/
+
+/*!**************************!*\
+  !*** ./src/Obstacles.js ***!
+  \**************************/
+
+/*!**************************!*\
+  !*** ./src/Particles.js ***!
+  \**************************/
+
+/*!**************************!*\
+  !*** ./src/ScoreText.js ***!
+  \**************************/
+
+/*!***************************!*\
+  !*** ./src/PlayButton.js ***!
+  \***************************/
+
+/*!*****************************!*\
+  !*** ./src/ScaleManager.js ***!
+  \*****************************/
+
+/*!******************************!*\
+  !*** ./src/SpriteEmitter.js ***!
+  \******************************/
+
+/*!*********************************!*\
+  !*** ./node_modules/url/url.js ***!
+  \*********************************/
+
+/*!**********************************!*\
+  !*** ./node_modules/url/util.js ***!
+  \**********************************/
+
+/*!***********************************!*\
+  !*** (webpack)/buildin/global.js ***!
+  \***********************************/
+
+/*!***********************************!*\
+  !*** (webpack)/buildin/module.js ***!
+  \***********************************/
+
+/*!***********************************!*\
+  !*** ./src/BackgroundElements.js ***!
+  \***********************************/
+
+/*!***********************************!*\
+  !*** ./src/BackgroundScroller.js ***!
+  \***********************************/
+
+/*!*****************************************!*\
+  !*** ./node_modules/parse-uri/index.js ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./node_modules/process/browser.js ***!
+  \*****************************************/
+
+/*!*******************************************!*\
+  !*** ./node_modules/earcut/src/earcut.js ***!
+  \*******************************************/
+
+/*!*********************************************!*\
+  !*** ./node_modules/eventemitter3/index.js ***!
+  \*********************************************/
+
+/*!*********************************************!*\
+  !*** ./node_modules/object-assign/index.js ***!
+  \*********************************************/
+
+/*!*********************************************!*\
+  !*** ./node_modules/pixi.js/lib/pixi.es.js ***!
+  \*********************************************/
+
+/*!**********************************************!*\
+  !*** ./node_modules/@pixi/app/lib/app.es.js ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ./node_modules/ismobilejs/esm/index.js ***!
+  \**********************************************/
+
+/*!***********************************************!*\
+  !*** ./node_modules/querystring-es3/index.js ***!
+  \***********************************************/
+
+/*!************************************************!*\
+  !*** ./node_modules/@pixi/core/lib/core.es.js ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./node_modules/@pixi/math/lib/math.es.js ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./node_modules/@pixi/mesh/lib/mesh.es.js ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./node_modules/@pixi/text/lib/text.es.js ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./node_modules/querystring-es3/decode.js ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./node_modules/querystring-es3/encode.js ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./node_modules/timers-browserify/main.js ***!
+  \************************************************/
+
+/*!*************************************************!*\
+  !*** ./node_modules/ismobilejs/esm/isMobile.js ***!
+  \*************************************************/
+
+/*!**************************************************!*\
+  !*** ./node_modules/@pixi/utils/lib/utils.es.js ***!
+  \**************************************************/
+
+/*!***************************************************!*\
+  !*** ./node_modules/pixi-spine/bin/pixi-spine.js ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./node_modules/setimmediate/setImmediate.js ***!
+  \***************************************************/
+
+/*!****************************************************!*\
+  !*** ./node_modules/@pixi/runner/lib/runner.es.js ***!
+  \****************************************************/
+
+/*!****************************************************!*\
+  !*** ./node_modules/@pixi/sprite/lib/sprite.es.js ***!
+  \****************************************************/
+
+/*!****************************************************!*\
+  !*** ./node_modules/@pixi/ticker/lib/ticker.es.js ***!
+  \****************************************************/
+
+/*!******************************************************!*\
+  !*** ./node_modules/@pixi/display/lib/display.es.js ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./node_modules/@pixi/extract/lib/extract.es.js ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./node_modules/@pixi/loaders/lib/loaders.es.js ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./node_modules/@pixi/prepare/lib/prepare.es.js ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./node_modules/es6-promise-polyfill/promise.js ***!
+  \******************************************************/
+
+/*!*******************************************************!*\
+  !*** ./node_modules/mini-signals/lib/mini-signals.js ***!
+  \*******************************************************/
+
+/*!********************************************************!*\
+  !*** ./node_modules/@pixi/graphics/lib/graphics.es.js ***!
+  \********************************************************/
+
+/*!********************************************************!*\
+  !*** ./node_modules/@pixi/polyfill/lib/polyfill.es.js ***!
+  \********************************************************/
+
+/*!********************************************************!*\
+  !*** ./node_modules/@pixi/settings/lib/settings.es.js ***!
+  \********************************************************/
+
+/*!**********************************************************!*\
+  !*** ./node_modules/@pixi/constants/lib/constants.es.js ***!
+  \**********************************************************/
+
+/*!**********************************************************!*\
+  !*** ./node_modules/@pixi/particles/lib/particles.es.js ***!
+  \**********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./node_modules/pixi-filters/lib/pixi-filters.esm.js ***!
+  \***********************************************************/
+
+/*!*************************************************************!*\
+  !*** ./node_modules/@pixi/filter-crt/lib/filter-crt.esm.js ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ./node_modules/@pixi/filter-dot/lib/filter-dot.esm.js ***!
+  \*************************************************************/
+
+/*!**************************************************************!*\
+  !*** ./node_modules/@pixi/filter-blur/lib/filter-blur.es.js ***!
+  \**************************************************************/
+
+/*!**************************************************************!*\
+  !*** ./node_modules/@pixi/filter-fxaa/lib/filter-fxaa.es.js ***!
+  \**************************************************************/
+
+/*!**************************************************************!*\
+  !*** ./node_modules/@pixi/interaction/lib/interaction.es.js ***!
+  \**************************************************************/
+
+/*!**************************************************************!*\
+  !*** ./node_modules/@pixi/mesh-extras/lib/mesh-extras.es.js ***!
+  \**************************************************************/
+
+/*!**************************************************************!*\
+  !*** ./node_modules/@pixi/spritesheet/lib/spritesheet.es.js ***!
+  \**************************************************************/
+
+/*!**************************************************************!*\
+  !*** ./node_modules/@pixi/text-bitmap/lib/text-bitmap.es.js ***!
+  \**************************************************************/
+
+/*!***************************************************************!*\
+  !*** ./node_modules/@pixi/filter-glow/lib/filter-glow.esm.js ***!
+  \***************************************************************/
+
+/*!****************************************************************!*\
+  !*** ./node_modules/@pixi/filter-alpha/lib/filter-alpha.es.js ***!
+  \****************************************************************/
+
+/*!****************************************************************!*\
+  !*** ./node_modules/@pixi/filter-noise/lib/filter-noise.es.js ***!
+  \****************************************************************/
+
+/*!*****************************************************************!*\
+  !*** ./node_modules/@pixi/filter-ascii/lib/filter-ascii.esm.js ***!
+  \*****************************************************************/
+
+/*!*****************************************************************!*\
+  !*** ./node_modules/@pixi/filter-bevel/lib/filter-bevel.esm.js ***!
+  \*****************************************************************/
+
+/*!*****************************************************************!*\
+  !*** ./node_modules/@pixi/filter-bloom/lib/filter-bloom.esm.js ***!
+  \*****************************************************************/
+
+/*!*****************************************************************!*\
+  !*** ./node_modules/@pixi/filter-twist/lib/filter-twist.esm.js ***!
+  \*****************************************************************/
+
+/*!******************************************************************!*\
+  !*** ./node_modules/@pixi/accessibility/lib/accessibility.es.js ***!
+  \******************************************************************/
+
+/*!******************************************************************!*\
+  !*** ./node_modules/@pixi/sprite-tiling/lib/sprite-tiling.es.js ***!
+  \******************************************************************/
+
+/*!******************************************************************!*\
+  !*** ./node_modules/resource-loader/dist/resource-loader.esm.js ***!
+  \******************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ./node_modules/@pixi/filter-emboss/lib/filter-emboss.esm.js ***!
+  \*******************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ./node_modules/@pixi/filter-glitch/lib/filter-glitch.esm.js ***!
+  \*******************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ./node_modules/@pixi/filter-godray/lib/filter-godray.esm.js ***!
+  \*******************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ./node_modules/@pixi/filter-outline/lib/filter-outline.esm.js ***!
+  \*********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./node_modules/@pixi/sprite-animated/lib/sprite-animated.es.js ***!
+  \**********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ./node_modules/@pixi/filter-old-film/lib/filter-old-film.esm.js ***!
+  \***********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ./node_modules/@pixi/filter-pixelate/lib/filter-pixelate.esm.js ***!
+  \***********************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ./node_modules/@pixi/filter-color-map/lib/filter-color-map.esm.js ***!
+  \*************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ./node_modules/@pixi/filter-rgb-split/lib/filter-rgb-split.esm.js ***!
+  \*************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ./node_modules/@pixi/filter-shockwave/lib/filter-shockwave.esm.js ***!
+  \*************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ./node_modules/@pixi/filter-zoom-blur/lib/filter-zoom-blur.esm.js ***!
+  \*************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ./node_modules/node-libs-browser/node_modules/punycode/punycode.js ***!
+  \**************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ./node_modules/@pixi/filter-adjustment/lib/filter-adjustment.esm.js ***!
+  \***************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ./node_modules/@pixi/filter-reflection/lib/filter-reflection.esm.js ***!
+  \***************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ./node_modules/@pixi/filter-tilt-shift/lib/filter-tilt-shift.esm.js ***!
+  \***************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@pixi/filter-bulge-pinch/lib/filter-bulge-pinch.esm.js ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@pixi/filter-convolution/lib/filter-convolution.esm.js ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@pixi/filter-cross-hatch/lib/filter-cross-hatch.esm.js ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@pixi/filter-drop-shadow/lib/filter-drop-shadow.esm.js ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@pixi/filter-kawase-blur/lib/filter-kawase-blur.esm.js ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@pixi/filter-motion-blur/lib/filter-motion-blur.esm.js ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@pixi/filter-radial-blur/lib/filter-radial-blur.esm.js ***!
+  \*****************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** ./node_modules/@pixi/filter-color-matrix/lib/filter-color-matrix.es.js ***!
+  \******************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** ./node_modules/@pixi/filter-displacement/lib/filter-displacement.es.js ***!
+  \******************************************************************************/
+
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@pixi/filter-color-replace/lib/filter-color-replace.esm.js ***!
+  \*********************************************************************************/
+
+/*!**********************************************************************************!*\
+  !*** ./node_modules/@pixi/mixin-cache-as-bitmap/lib/mixin-cache-as-bitmap.es.js ***!
+  \**********************************************************************************/
+
+/*!***********************************************************************************!*\
+  !*** ./node_modules/@pixi/filter-advanced-bloom/lib/filter-advanced-bloom.esm.js ***!
+  \***********************************************************************************/
+
+/*!*************************************************************************************!*\
+  !*** ./node_modules/@pixi/filter-simple-lightmap/lib/filter-simple-lightmap.esm.js ***!
+  \*************************************************************************************/
+
+/*!**************************************************************************************!*\
+  !*** ./node_modules/@pixi/mixin-get-child-by-name/lib/mixin-get-child-by-name.es.js ***!
+  \**************************************************************************************/
+
+/*!******************************************************************************************!*\
+  !*** ./node_modules/@pixi/mixin-get-global-position/lib/mixin-get-global-position.es.js ***!
+  \******************************************************************************************/
+
+/*!*********************************************************************************************!*\
+  !*** ./node_modules/@pixi/filter-multi-color-replace/lib/filter-multi-color-replace.esm.js ***!
+  \*********************************************************************************************/

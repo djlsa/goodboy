@@ -1,0 +1,160 @@
+
+pixie.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L_hand
+  rotate: false
+  xy: 191, 144
+  size: 14, 16
+  orig: 14, 16
+  offset: 0, 0
+  index: -1
+L_lower_arm
+  rotate: false
+  xy: 161, 146
+  size: 18, 8
+  orig: 18, 8
+  offset: 0, 0
+  index: -1
+L_upper_arm
+  rotate: false
+  xy: 1, 190
+  size: 20, 19
+  orig: 20, 19
+  offset: 0, 0
+  index: -1
+rearWing
+  rotate: false
+  xy: 1, 151
+  size: 34, 37
+  orig: 34, 37
+  offset: 0, 0
+  index: -1
+L_foot
+  rotate: false
+  xy: 142, 146
+  size: 17, 13
+  orig: 17, 13
+  offset: 0, 0
+  index: -1
+L_lower_leg
+  rotate: false
+  xy: 223, 146
+  size: 14, 16
+  orig: 14, 16
+  offset: 0, 0
+  index: -1
+L_upper_leg
+  rotate: false
+  xy: 224, 124
+  size: 31, 18
+  orig: 31, 18
+  offset: 0, 0
+  index: -1
+R_foot
+  rotate: false
+  xy: 123, 146
+  size: 17, 13
+  orig: 17, 13
+  offset: 0, 0
+  index: -1
+R_lower_leg
+  rotate: false
+  xy: 207, 146
+  size: 14, 16
+  orig: 14, 16
+  offset: 0, 0
+  index: -1
+R_upper_leg
+  rotate: false
+  xy: 191, 124
+  size: 31, 18
+  orig: 31, 18
+  offset: 0, 0
+  index: -1
+groinal
+  rotate: false
+  xy: 37, 151
+  size: 26, 21
+  orig: 26, 21
+  offset: 0, 0
+  index: -1
+foreWing
+  rotate: false
+  xy: 126, 124
+  size: 63, 20
+  orig: 63, 20
+  offset: 0, 0
+  index: -1
+neck
+  rotate: false
+  xy: 105, 138
+  size: 16, 20
+  orig: 16, 20
+  offset: 0, 0
+  index: -1
+vest
+  rotate: false
+  xy: 68, 138
+  size: 35, 36
+  orig: 35, 36
+  offset: 0, 0
+  index: -1
+R_upper_arm
+  rotate: false
+  xy: 37, 174
+  size: 20, 19
+  orig: 20, 19
+  offset: 0, 0
+  index: -1
+R_lower_arm
+  rotate: false
+  xy: 161, 156
+  size: 18, 8
+  orig: 18, 8
+  offset: 0, 0
+  index: -1
+R_hand
+  rotate: false
+  xy: 126, 105
+  size: 14, 16
+  orig: 14, 16
+  offset: 0, 0
+  index: -1
+backHair
+  rotate: false
+  xy: 1, 105
+  size: 65, 44
+  orig: 65, 44
+  offset: 0, 0
+  index: -1
+frontHair
+  rotate: false
+  xy: 156, 1
+  size: 99, 74
+  orig: 99, 74
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 1, 1
+  size: 153, 102
+  orig: 153, 102
+  offset: 0, 0
+  index: -1
+jaw
+  rotate: false
+  xy: 68, 105
+  size: 56, 31
+  orig: 56, 31
+  offset: 0, 0
+  index: -1
+midHair
+  rotate: false
+  xy: 156, 77
+  size: 88, 45
+  orig: 88, 45
+  offset: 0, 0
+  index: -1
