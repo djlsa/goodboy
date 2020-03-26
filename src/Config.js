@@ -37,12 +37,31 @@ export default {
 			'star_01.png': 'assets/particles/star_01.png',
 			'star_04.png': 'assets/particles/star_04.png',
 			'star_07.png': 'assets/particles/star_07.png',
-			'smoke_01.png': 'assets/particles/smoke_01.png',
-			'smoke_02.png': 'assets/particles/smoke_02.png',
-			'smoke_04.png': 'assets/particles/smoke_04.png',
-			'smoke_05.png': 'assets/particles/smoke_05.png',
-			'smoke_07.png': 'assets/particles/smoke_07.png',
-			'smoke_08.png': 'assets/particles/smoke_08.png',
+			'whitePuff00.png' : 'assets/particles/whitePuff00.png',
+			'whitePuff01.png' : 'assets/particles/whitePuff01.png',
+			'whitePuff02.png' : 'assets/particles/whitePuff02.png',
+			'whitePuff03.png' : 'assets/particles/whitePuff03.png',
+			'whitePuff04.png' : 'assets/particles/whitePuff04.png',
+			'whitePuff05.png' : 'assets/particles/whitePuff05.png',
+			'whitePuff06.png' : 'assets/particles/whitePuff06.png',
+			'whitePuff07.png' : 'assets/particles/whitePuff07.png',
+			'whitePuff08.png' : 'assets/particles/whitePuff08.png',
+			'whitePuff09.png' : 'assets/particles/whitePuff09.png',
+			'whitePuff10.png' : 'assets/particles/whitePuff10.png',
+			'whitePuff11.png' : 'assets/particles/whitePuff11.png',
+			'whitePuff12.png' : 'assets/particles/whitePuff12.png',
+			'whitePuff13.png' : 'assets/particles/whitePuff13.png',
+			'whitePuff14.png' : 'assets/particles/whitePuff14.png',
+			'whitePuff15.png' : 'assets/particles/whitePuff15.png',
+			'whitePuff16.png' : 'assets/particles/whitePuff16.png',
+			'whitePuff17.png' : 'assets/particles/whitePuff17.png',
+			'whitePuff18.png' : 'assets/particles/whitePuff18.png',
+			'whitePuff19.png' : 'assets/particles/whitePuff19.png',
+			'whitePuff20.png' : 'assets/particles/whitePuff20.png',
+			'whitePuff21.png' : 'assets/particles/whitePuff21.png',
+			'whitePuff22.png' : 'assets/particles/whitePuff22.png',
+			'whitePuff23.png' : 'assets/particles/whitePuff23.png',
+			'whitePuff24.png' : 'assets/particles/whitePuff24.png',
 			// sounds
 			'fly': 'assets/sound/sfx_movement_jump8.wav',
 			'score': 'assets/sound/sfx_sound_neutral5.wav',
@@ -60,9 +79,9 @@ export default {
 		asset: 'pixie.json',
 		animation: 'flying',
 		scale: 0.33,
-		layer: 8,
+		layer: 9,
 		collision: {
-			margin: 30
+			margin: 40
 		},
 		values: {
 			entrance: {
@@ -106,31 +125,50 @@ export default {
 					'star_07.png'
 				],
 				speed: {
-					x: -1,
+					x: -2.5,
 					y: -0.25
 				},
-				scale: 0.1,
-				time: 10,
-				steps: 100,
-				maxParticles: 60
+				scale: 0.08,
+				time: 1,
+				steps: 50,
+				maxParticles: 100
 			},
 			smoke: {
 				textures: [
-					'smoke_01.png',
-					'smoke_02.png',
-					'smoke_04.png',
-					'smoke_05.png',
-					'smoke_07.png',
-					'smoke_08.png'
+					'whitePuff00.png',
+					'whitePuff01.png',
+					'whitePuff02.png',
+					'whitePuff03.png',
+					'whitePuff04.png',
+					'whitePuff05.png',
+					'whitePuff06.png',
+					'whitePuff07.png',
+					'whitePuff08.png',
+					'whitePuff09.png',
+					'whitePuff10.png',
+					'whitePuff11.png',
+					'whitePuff12.png',
+					'whitePuff13.png',
+					'whitePuff14.png',
+					'whitePuff15.png',
+					'whitePuff16.png',
+					'whitePuff17.png',
+					'whitePuff18.png',
+					'whitePuff19.png',
+					'whitePuff20.png',
+					'whitePuff21.png',
+					'whitePuff22.png',
+					'whitePuff23.png',
+					'whitePuff24.png'
 				],
 				speed: {
-					x: -1.5,
-					y: 0.25,
+					x: -7,
+					y: 1.3,
 				},
-				scale: 0.25,
-				time: 10,
-				steps: 100,
-				maxParticles: 60
+				scale: 0.175,
+				time: 5,
+				steps: 20,
+				maxParticles: 100
 			}
 		}
 	},
@@ -221,6 +259,17 @@ export default {
 				max: 250
 			}
 		},
+		floor_back: {
+			type: BackgroundScroller,
+			spritesheet: 'WorldAssets.json',
+			texture: '00_forest_floor.png',
+			position: {
+				y: 562
+			},
+			speed: {
+				x: -2.8
+			}
+		},
 		columns: {
 			type: Obstacles,
 			collidable: true,
@@ -234,15 +283,18 @@ export default {
 			gap: 200,
 			scoreX: 0
 		},
-		floor: {
+		floor_front: {
 			type: BackgroundScroller,
 			spritesheet: 'WorldAssets.json',
 			texture: '00_forest_floor.png',
+			tilePosition: {
+				x: 999
+			},
 			position: {
-				y: 562
+				y: 582
 			},
 			speed: {
-				x: -3
+				x: -2.9
 			}
 		},
 		leaves: {

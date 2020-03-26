@@ -29,6 +29,8 @@ export default class Obstacles extends SpriteEmitter {
 		topColumn.texture = bottomColumn.texture = this._app.assets.textures[
 			this._config.textures[0]
 		];
+		topColumn.anchor.set(0.5, 0);
+		bottomColumn.anchor.set(0.5, 0);
 		this.addChild(topColumn);
 		this.addChild(bottomColumn);
 		topColumn.visible = true;
@@ -45,6 +47,8 @@ export default class Obstacles extends SpriteEmitter {
 		const randomHeight = Math.floor(Math.random() * this._maxDisplacement);
 		topColumn.y = this._topYOrigin + randomHeight;
 		bottomColumn.y = topColumn.y + topColumn.height + this._config.gap;
+		topColumn.scale.x = Math.random() < 0.5 ? -1 : 1;
+		bottomColumn.scale.x = Math.random() < 0.5 ? -1 : 1;
 		// keep the last column for later calculation
 		this._last = topColumn;
 		topColumn.scored = false;

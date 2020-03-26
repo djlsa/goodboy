@@ -21,8 +21,8 @@ object-assign
  */
 
 /*!
- * @pixi/filter-adjustment - v3.0.3
- * Compiled Wed, 29 May 2019 03:04:05 UTC
+ * @pixi/filter-adjustment - v3.1.0
+ * Compiled Wed, 11 Mar 2020 20:38:18 UTC
  *
  * @pixi/filter-adjustment is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -37,16 +37,16 @@ object-assign
  */
 
 /*!
- * @pixi/filter-ascii - v3.0.3
- * Compiled Wed, 29 May 2019 03:04:05 UTC
+ * @pixi/filter-ascii - v3.1.0
+ * Compiled Wed, 11 Mar 2020 20:38:18 UTC
  *
  * @pixi/filter-ascii is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
  */
 
 /*!
- * @pixi/filter-bulge-pinch - v3.0.3
- * Compiled Wed, 29 May 2019 03:04:05 UTC
+ * @pixi/filter-bulge-pinch - v3.1.0
+ * Compiled Wed, 11 Mar 2020 20:38:18 UTC
  *
  * @pixi/filter-bulge-pinch is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -61,40 +61,40 @@ object-assign
  */
 
 /*!
- * @pixi/filter-convolution - v3.0.3
- * Compiled Wed, 29 May 2019 03:04:05 UTC
+ * @pixi/filter-convolution - v3.1.0
+ * Compiled Wed, 11 Mar 2020 20:38:18 UTC
  *
  * @pixi/filter-convolution is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
  */
 
 /*!
- * @pixi/filter-cross-hatch - v3.0.3
- * Compiled Wed, 29 May 2019 03:04:05 UTC
+ * @pixi/filter-cross-hatch - v3.1.0
+ * Compiled Wed, 11 Mar 2020 20:38:18 UTC
  *
  * @pixi/filter-cross-hatch is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
  */
 
 /*!
- * @pixi/filter-crt - v3.0.3
- * Compiled Wed, 29 May 2019 03:04:05 UTC
+ * @pixi/filter-crt - v3.1.0
+ * Compiled Wed, 11 Mar 2020 20:38:18 UTC
  *
  * @pixi/filter-crt is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
  */
 
 /*!
- * @pixi/filter-dot - v3.0.3
- * Compiled Wed, 29 May 2019 03:04:05 UTC
+ * @pixi/filter-dot - v3.1.0
+ * Compiled Wed, 11 Mar 2020 20:38:18 UTC
  *
  * @pixi/filter-dot is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
  */
 
 /*!
- * @pixi/filter-emboss - v3.0.3
- * Compiled Wed, 29 May 2019 03:04:05 UTC
+ * @pixi/filter-emboss - v3.1.0
+ * Compiled Wed, 11 Mar 2020 20:38:18 UTC
  *
  * @pixi/filter-emboss is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -117,64 +117,64 @@ object-assign
  */
 
 /*!
- * @pixi/filter-old-film - v3.0.3
- * Compiled Wed, 29 May 2019 03:04:05 UTC
+ * @pixi/filter-old-film - v3.1.0
+ * Compiled Wed, 11 Mar 2020 20:38:18 UTC
  *
  * @pixi/filter-old-film is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
  */
 
 /*!
- * @pixi/filter-pixelate - v3.0.3
- * Compiled Wed, 29 May 2019 03:04:05 UTC
+ * @pixi/filter-pixelate - v3.1.0
+ * Compiled Wed, 11 Mar 2020 20:38:18 UTC
  *
  * @pixi/filter-pixelate is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
  */
 
 /*!
- * @pixi/filter-radial-blur - v3.0.3
- * Compiled Wed, 29 May 2019 03:04:05 UTC
+ * @pixi/filter-radial-blur - v3.1.0
+ * Compiled Wed, 11 Mar 2020 20:38:18 UTC
  *
  * @pixi/filter-radial-blur is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
  */
 
 /*!
- * @pixi/filter-reflection - v3.0.3
- * Compiled Wed, 29 May 2019 03:04:05 UTC
+ * @pixi/filter-reflection - v3.1.0
+ * Compiled Wed, 11 Mar 2020 20:38:18 UTC
  *
  * @pixi/filter-reflection is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
  */
 
 /*!
- * @pixi/filter-rgb-split - v3.0.3
- * Compiled Wed, 29 May 2019 03:04:05 UTC
+ * @pixi/filter-rgb-split - v3.1.0
+ * Compiled Wed, 11 Mar 2020 20:38:18 UTC
  *
  * @pixi/filter-rgb-split is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
  */
 
 /*!
- * @pixi/filter-shockwave - v3.0.3
- * Compiled Wed, 29 May 2019 03:04:05 UTC
+ * @pixi/filter-shockwave - v3.1.0
+ * Compiled Wed, 11 Mar 2020 20:38:18 UTC
  *
  * @pixi/filter-shockwave is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
  */
 
 /*!
- * @pixi/filter-twist - v3.0.3
- * Compiled Wed, 29 May 2019 03:04:05 UTC
+ * @pixi/filter-twist - v3.1.0
+ * Compiled Wed, 11 Mar 2020 20:38:18 UTC
  *
  * @pixi/filter-twist is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
  */
 
 /*!
- * @pixi/filter-zoom-blur - v3.0.3
- * Compiled Wed, 29 May 2019 03:04:05 UTC
+ * @pixi/filter-zoom-blur - v3.1.0
+ * Compiled Wed, 11 Mar 2020 20:38:18 UTC
  *
  * @pixi/filter-zoom-blur is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -347,6 +347,8 @@ object-assign
 
 /*! @pixi/filter-color-matrix */
 
+/*! @pixi/filter-color-overlay */
+
 /*! @pixi/filter-color-replace */
 
 /*! @pixi/filter-convolution */
@@ -459,7 +461,7 @@ object-assign
 
 /*! exports provided: AdjustmentFilter */
 
-/*! exports provided: AdjustmentFilter, AdvancedBloomFilter, AsciiFilter, BevelFilter, BloomFilter, BulgePinchFilter, ColorMapFilter, ColorReplaceFilter, ConvolutionFilter, CrossHatchFilter, CRTFilter, DotFilter, DropShadowFilter, EmbossFilter, GlitchFilter, GlowFilter, GodrayFilter, KawaseBlurFilter, MotionBlurFilter, MultiColorReplaceFilter, OldFilmFilter, OutlineFilter, PixelateFilter, RadialBlurFilter, ReflectionFilter, RGBSplitFilter, ShockwaveFilter, SimpleLightmapFilter, TiltShiftAxisFilter, TiltShiftFilter, TiltShiftXFilter, TiltShiftYFilter, TwistFilter, ZoomBlurFilter */
+/*! exports provided: AdjustmentFilter, AdvancedBloomFilter, AsciiFilter, BevelFilter, BloomFilter, BulgePinchFilter, ColorMapFilter, ColorOverlayFilter, ColorReplaceFilter, ConvolutionFilter, CrossHatchFilter, CRTFilter, DotFilter, DropShadowFilter, EmbossFilter, GlitchFilter, GlowFilter, GodrayFilter, KawaseBlurFilter, MotionBlurFilter, MultiColorReplaceFilter, OldFilmFilter, OutlineFilter, PixelateFilter, RadialBlurFilter, ReflectionFilter, RGBSplitFilter, ShockwaveFilter, SimpleLightmapFilter, TiltShiftAxisFilter, TiltShiftFilter, TiltShiftXFilter, TiltShiftYFilter, TwistFilter, ZoomBlurFilter */
 
 /*! exports provided: AdvancedBloomFilter */
 
@@ -494,6 +496,8 @@ object-assign
 /*! exports provided: ColorMapFilter */
 
 /*! exports provided: ColorMatrixFilter */
+
+/*! exports provided: ColorOverlayFilter */
 
 /*! exports provided: ColorReplaceFilter */
 
@@ -994,6 +998,10 @@ object-assign
 /*!******************************************************************************!*\
   !*** ./node_modules/@pixi/filter-displacement/lib/filter-displacement.es.js ***!
   \******************************************************************************/
+
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@pixi/filter-color-overlay/lib/filter-color-overlay.esm.js ***!
+  \*********************************************************************************/
 
 /*!*********************************************************************************!*\
   !*** ./node_modules/@pixi/filter-color-replace/lib/filter-color-replace.esm.js ***!

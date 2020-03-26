@@ -1,5 +1,6 @@
 import Config from './Config';
 import SpriteEmitter from './SpriteEmitter';
+import BackgroundScroller from './BackgroundScroller';
 /**
  * All background elements, including obstacles
  */
@@ -21,6 +22,10 @@ export default class BackgroundElements {
 			app.stage.addChild(backgroundElement);
 			backgroundElement.x = Config.getNested(config, 'position.x') || 0;
 			backgroundElement.y = Config.getNested(config, 'position.y') || 0;
+			if(config.type == BackgroundScroller) {
+				backgroundElement.tilePosition.x = Config.getNested(config, 'tilePosition.x') || 0;
+				backgroundElement.tilePosition.y = Config.getNested(config, 'tilePosition.y') || 0;
+			}
 		}
 		this.moving = false;
 	}
@@ -43,8 +48,7 @@ export default class BackgroundElements {
 	 * Calculation of floor position (player position on game over)
 	 */
 	get floorPosition() {
-		return this._backgroundElements['floor'].y +
-			Config.player.collision.margin;
+		return this._backgroundElements['floor_back'].y + Config.player.collision.margin;
 	}
 
 	/**

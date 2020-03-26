@@ -79,7 +79,7 @@ export default class Player extends PIXI.Container {
 		else if(this._state == this._states.FALLING || this._state == this._states.FLYING) {
 			// check for collisions with collidable objects from background elements
 			for(const collidable of this._backgroundElements.collidable) {
-				if(collidable.checkCollision(this, Config.player.collisionMargin)) {
+				if(collidable.checkCollision(this, Config.player.collision.margin)) {
 					this._state = this._states.CRASHING;
 					this._app.assets.sounds['hit'].play();
 				}
