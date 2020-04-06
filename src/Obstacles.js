@@ -31,8 +31,6 @@ export default class Obstacles extends SpriteEmitter {
 		];
 		topColumn.anchor.set(0.5, 0);
 		bottomColumn.anchor.set(0.5, 0);
-		this.addChild(topColumn);
-		this.addChild(bottomColumn);
 		topColumn.visible = true;
 		bottomColumn.visible = true;
 		// starting X position for calculations, usually from last column
